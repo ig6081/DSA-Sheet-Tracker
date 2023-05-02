@@ -267,7 +267,7 @@ export default function Topic({ data, updateData }) {
 									Sorter(isBookmarkSortFilterSelected);
 								}}
 							>
-								<span className='label-emoji'>🏷️</span>
+								<span className='label-emoji' role="img" aria-label="Bookmark">🏷️</span>
 							</Button>
 						</OverlayTrigger>
 					</InputGroup>

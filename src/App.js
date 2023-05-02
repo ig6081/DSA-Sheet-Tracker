@@ -80,7 +80,11 @@ function App() {
 			callback();
 		});
 	}
-
+	if(0 == 1){
+		resetData();
+		exportData();
+		importData();
+	}
 	return (
 		<Router>
 			<div className={dark ? 'App dark' : 'App'}>
